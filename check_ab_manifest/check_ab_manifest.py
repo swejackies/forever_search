@@ -4,7 +4,7 @@ import sys      #用于标准输入输出
 import re
 
 #搜索Mainfest文件
-p1=re.compile("qq")
+p1=re.compile("/Users/rdm/ieg_ci/slave/workspace/dev_android_assetbundles_dev/Naruto/AssetBundles/android/icon/")
 def search_one_manifest_file(mainfest_file):
     fileObj=open(mainfest_file)
     for line in fileObj:
